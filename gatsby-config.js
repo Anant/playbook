@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: 'Principled GraphQL',
-    description: 'Best practices for implementing and scaling a data graph'
+    title: 'Anant Platform Playbook',
+    description: 'Principles and playbook for building and scaling and a business platform.'
   },
   plugins: [
     {
@@ -13,7 +13,7 @@ module.exports = {
     {
       resolve: 'gatsby-plugin-google-analytics',
       options: {
-        trackingId: 'UA-74643563-15'
+        trackingId: '258835989'
       }
     },
     {

@@ -103,11 +103,11 @@ export default class Template extends Component {
           twitterCard="summary_large_image"
         >
           <html lang="en" />
-          <meta name="twitter:site" content="@apollographql" />
+          <meta name="twitter:site" content="@anantcorp" />
           <meta property="og:image" content={ogImage} />
           <meta
             name="twitter:image"
-            content={'https://principledgraphql.com' + ogImage}
+            content={'https://platform-playbook.netlify.app' + ogImage}
           />
         </SEO>
         <ResponsiveSidebar>
