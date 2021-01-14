@@ -3,7 +3,9 @@
 # playbook
 Anant Platform Playbook - Consists of principles, patterns, tools, a framework, and an approach to designing, building, and managing plaforms. 
 
-This website highlights best practices for implementing and scaling a business platform, starting with a data platform. It's built with [Gatsby](https://gatsbyjs.org) using [our custom theme](https://github.com/apollographql/gatsby-theme-apollo/tree/master/packages/gatsby-theme-apollo-core).
+This website highlights best practices for implementing and scaling a business platform, starting with a data platform. 
+
+It's built with [Gatsby](https://gatsbyjs.org) using [Apollo Graphql's theme](https://github.com/apollographql/gatsby-theme-apollo/tree/master/packages/gatsby-theme-apollo-core).
 THIS IS A WORK IN PROGRESS
 ## Developing locally
 
