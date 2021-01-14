@@ -1,0 +1,6 @@
+[build]
+  base    = "/"
+  publish = "public/"
+  command = "gatsby build"
+[build.environment]
+  NPM_VERSION = "6"

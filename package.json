@@ -1,0 +1,53 @@
+{
+  "name": "playbook",
+  "version": "1.0.0",
+  "description": "Anant Platform Playbook - Consists of principles, patterns, tools, a framework, and an approach to designing, building, and managing plaforms. ",
+  "main": "index.js",
+  "scripts": {
+    "develop": "gatsby develop",
+    "start": "npm run develop"
+  },
+  "eslintConfig": {
+    "extends": "@trevorblades/eslint-config/react"
+  },
+  "dependencies": {
+    "gatsby": "^2.23.11",
+    "gatsby-plugin-google-analytics": "^2.0.13",
+    "gatsby-remark-autolink-headers": "^2.1.19",
+    "gatsby-remark-copy-linked-files": "^2.1.31",
+    "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-theme-apollo-core": "^3.0.16",
+    "gatsby-transformer-remark": "^2.2.4",
+    "react": "^16.9.0",
+    "react-dom": "^16.9.0"
+  },
+  "devDependencies": {
+    "@trevorblades/eslint-config": "^7.0.1",
+    "eslint": "^5.13.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Anant/playbook.git"
+  },
+  "keywords": [
+    "playbook",
+    "ansible",
+    "terraform",
+    "datastax",
+    "databricks",
+    "confluent",
+    "cassandra",
+    "spark",
+    "solr",
+    "kafka",
+    "spark",
+    "dockerk",
+    "kubernetes"
+  ],
+  "author": "Rahul Singh <rahul.singh@anant.us> (https://anant.us/)",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/Anant/playbook/issues"
+  },
+  "homepage": "https://github.com/Anant/playbook#readme"
+}
