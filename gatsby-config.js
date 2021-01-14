@@ -4,6 +4,30 @@ module.exports = {
     description: 'Principles and playbook for building and scaling and a business platform.'
   },
   plugins: [
+      {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: `Anant Platform Playbook`,
+        short_name: `Playbook`,
+        start_url: `/`,
+        /*background_color: `#f7f0eb`,
+        theme_color: `#a2466c`,*/
+        display: `standalone`,
+        icon: `src/assets/icons/favicon.ico`,
+      },
+    },
+    {
+        resolve: `gatsby-plugin-sharp`,
+        options: {
+            // Available options and their defaults:
+            base64Width: 20,
+            forceBase64Format: `png`, // valid formats: png,jpg,webp
+            useMozJpeg: process.env.GATSBY_JPEG_ENCODER === `MOZJPEG`,
+            stripMetadata: true,
+            defaultQuality: 50,
+            failOnError: true,
+        },
+    },
     {
       resolve: 'gatsby-theme-apollo-core',
       options: {
