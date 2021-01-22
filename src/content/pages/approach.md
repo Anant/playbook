@@ -42,7 +42,7 @@ image: ../images/agility.png
 
 ## 14. Customization
 
-> All customization or special configuration should be documented, and part of a devops process. 
+> All customization or special configuration should be documented, and part of an automated devops process. 
 
 * Self Service process
 * Testing environments
