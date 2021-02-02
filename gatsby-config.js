@@ -15,7 +15,7 @@ module.exports = {
         display: `standalone`,
         icon: `src/assets/icons/favicon.jpg`,
       },
-    },
+    }, 
     {
         resolve: `gatsby-plugin-sharp`,
         options: {
