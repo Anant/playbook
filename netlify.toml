@@ -4,3 +4,4 @@
   command = "gatsby build"
 [build.environment]
   NPM_VERSION = "6"
+  SHARP_IGNORE_GLOBAL_LIBVIPS=true
