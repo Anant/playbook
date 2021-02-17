@@ -1,3 +1,5 @@
+require('dotenv').config()
+
 module.exports = {
   siteMetadata: {
     title: 'Anant Platform Playbook',
@@ -13,7 +15,7 @@ module.exports = {
         /*background_color: `#f7f0eb`,
         theme_color: `#a2466c`,*/
         display: `standalone`,
-        icon: `src/assets/icons/favicon.jpg`,
+        icon: `src/assets/icons/favicon.png`,
       },
     }, 
     {
@@ -61,6 +63,25 @@ module.exports = {
           }
         ]
       }
+    },
+    {
+        resolve: `gatsby-plugin-google-gtag`,
+        options: {
+            // You can add multiple tracking ids and a pageview event will be fired for all of them.
+            trackingIds: [
+                process.env.GA_TRACKING_ID
+            ],
+            // This object gets passed directly to the gtag config command
+            // This config will be shared across all trackingIds
+            gtagConfig: {
+                // optimize_id: "OPT_CONTAINER_ID",
+                anonymize_ip: true,
+                cookie_expires: 0,
+            },
+                pluginConfig: {
+                head: true,
+            },
+        },
     }
   ]
 };
