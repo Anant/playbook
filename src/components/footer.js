@@ -58,9 +58,9 @@ export default function Footer() {
           View source code
         </a>
         <FooterNavLinks>
-          <a href="https://anant.us/">anant.us</a> |{' '}
-          <a href="https://cassandra.link">cassandra.link</a> |{' '}
-          <a href="https://cassandra.tools">cassandra.tools</a>
+          <a id="anant" href="https://anant.us/">anant.us</a> |{' '}
+          <a id="link" href="https://cassandra.link">cassandra.link</a> |{' '}
+          <a id="tools" href="https://cassandra.tools">cassandra.tools</a>
         </FooterNavLinks>
       </FooterNav>
     </Container>
