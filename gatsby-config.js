@@ -6,6 +6,13 @@ module.exports = {
     description: 'Principles and playbook for building and scaling and a business platform.'
   },
   plugins: [
+    {
+      resolve: "gatsby-plugin-google-tagmanager",
+      options: {
+        id: process.env.GTM_ID,
+        includeInDevelopment: false,
+      },
+    },
       {
       resolve: `gatsby-plugin-manifest`,
       options: {
@@ -34,12 +41,6 @@ module.exports = {
       resolve: 'gatsby-theme-apollo-core',
       options: {
         root: __dirname
-      }
-    },
-    {
-      resolve: 'gatsby-plugin-google-analytics',
-      options: {
-        trackingId: '258835989'
       }
     },
     {
