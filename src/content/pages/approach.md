@@ -62,4 +62,6 @@ image: ../images/agility.png
 * Public / Internal knowledge sources
 * Continuous knowledge creation
 
+<a href="https://anantstage.wpengine.com/stack" target="_blank">Find out more about the Anant STACK approach and how it can help you manage the people, information, and systems in and around your platform.</a>
+
 <!-- end -->

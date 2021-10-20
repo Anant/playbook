@@ -48,4 +48,6 @@ Don't reinvent the wheel if you can help it by using existing components that ar
 * All systems should emit logs that are configurable at different levels.
 * All systems logs should be aggregated and retained in an index for quick correlation and investigation. 
 
+<a href="https://anantstage.wpengine.com/framework/" target="_blank">Find out more about how Anant can apply our framework principles to make your platform distributed, realtime, extendable, automated, and monitored.</a>
+
 <!-- end -->

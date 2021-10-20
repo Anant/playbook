@@ -38,6 +38,22 @@ const Main = styled.main({
   flexGrow: 1
 });
 
+const CtaHeading = styled.h4({
+  lineHeight: '24px'
+});
+
+const CtaBtn = styled.a({
+  background: '#2A61FF',
+  borderRadius: 4,
+  color: '#fff',
+  padding: '12px 34px',
+  textDecoration: 'none',
+  display: 'inline-block',
+  '&:hover': {
+    background: '#311C87'
+  }
+});
+
 const anchorPattern = /<a href="([\w/#-]+)">([\w\s.,-]+)<\/a>/gm;
 
 export default class Template extends Component {
@@ -131,6 +147,15 @@ export default class Template extends Component {
                   contents={contents}
                   onLinkClick={handleSidebarNavLinkClick}
                 />
+                <CtaHeading>
+                  CRAFT your DREAM STACK with the Anant Playbook
+                </CtaHeading>
+                <CtaBtn
+                  href="https://anant.us/contact"
+                  target="_blank"
+                >
+                  Let's Talk
+                </CtaBtn>
               </Sidebar>
               <Main>
                 <Header>

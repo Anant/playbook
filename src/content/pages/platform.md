@@ -68,4 +68,6 @@ Don't reinvent the wheel, use:
 * Wiki - Wikis are great for storing the most critical information in a way that is easily accessible
 * Doc Sites - Doc sites are like Wikis but have the benefit of being released /published via source control.
 
+<a href="https://anantstage.wpengine.com/platform" target="_blank">Find out more about how Anant can advise on your current platform.</a>
+
 <!-- end -->
