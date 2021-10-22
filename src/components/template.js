@@ -39,7 +39,12 @@ const Main = styled.main({
 });
 
 const CtaHeading = styled.h4({
-  lineHeight: '24px'
+  lineHeight: '24px',
+  textAlign: 'center'
+});
+
+const BtnContainer = styled.div({
+  textAlign: 'center',
 });
 
 const CtaBtn = styled.a({
@@ -148,14 +153,17 @@ export default class Template extends Component {
                   onLinkClick={handleSidebarNavLinkClick}
                 />
                 <CtaHeading>
-                  CRAFT your DREAM STACK with the Anant Playbook
+                  CRAFT your DREAM STACK <br/>
+                  with the Anant Playbook
                 </CtaHeading>
-                <CtaBtn
-                  href="https://anant.us/contact"
-                  target="_blank"
-                >
-                  Let's Talk
-                </CtaBtn>
+                <BtnContainer>
+                  <CtaBtn
+                    href="https://anant.us/contact"
+                    target="_blank"
+                  >
+                    Let's Talk
+                  </CtaBtn>
+                </BtnContainer>
               </Sidebar>
               <Main>
                 <Header>
