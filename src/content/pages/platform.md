@@ -12,9 +12,9 @@ image: ../images/agility.png
 
 By prioritizing in this order :
 
-* People - People are more important, so the user experience is paramount.
-* Process - Processes are more important than data. Business needs are greater than which database you use. 
-* Information - Information is more important than the platform. Platforms come and go, but information can transform and go anywhere. 
+* People - People are the most important factor in a business, so the user experience is paramount.
+* Process - Processes are more important than data. Processes serve people. Business needs are greater than which database you use. 
+* Information - Information is more important than the platform. Platforms come and go, but information can transform and go anywhere. Informatio serves Processes.
 * Platforms - Platforms serve the needs of information, which serve the needs of processes, which serve the need of people.
 
 Technology serves business needs. Not the other way around. If you help the user achieve their goals, the platform is good.
@@ -25,7 +25,15 @@ Technology serves business needs. Not the other way around. If you help the user
 
 Think of this as a way to organize the company as a set of "microservices" that are leveraged across different parts of an organization. 
 
-Though there may be different responsibility areas, there is only one business platform. 
+Though there may be different responsibility areas, there is only one business platform. Here are some example responsibility areas.
+
+* Sales & Marketing - Sales and marketing help businesses acquire customers, which are the source of revenue.
+* Products & Services - Delivery of Products and Services is how a business earns revenue once they have acquired a customer. This is how a business delivers value.
+* Finance & Acocunting - Once a business delivers value, they need to efficiently collect and remit payments while being profitable for there to be a sustainable business.
+* Research & Development - A business creates value through research and development. This could be basic or applied research all the way to product development.
+* Operations & Infrastructure - Operations & Infrastructure of a business is the operations of a business platform. A healthy business has many operations automated on resilient infrasturcture.
+* Leadership & Management - Leadership & Management allows a business to develop and direct the most important assets in a business: the people and the strategy they are executing.
+
 
 ## 3. Approach 
 
